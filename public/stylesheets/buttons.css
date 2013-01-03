@@ -1,0 +1,65 @@
+.btn-blue1 {
+  background-color: hsl(214, 37%, 28%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="hsl(214, 37%, 62%)", endColorStr="hsl(214, 37%, 28%)");
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(hsl(214, 37%, 62%)), to(hsl(214, 37%, 28%)));
+  background-image: -moz-linear-gradient(top, hsl(214, 37%, 62%), hsl(214, 37%, 28%));
+  background-image: -ms-linear-gradient(top, hsl(214, 37%, 62%), hsl(214, 37%, 28%));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, hsl(214, 37%, 62%)), color-stop(100%, hsl(214, 37%, 28%)));
+  background-image: -webkit-linear-gradient(top, hsl(214, 37%, 62%), hsl(214, 37%, 28%));
+  background-image: -o-linear-gradient(top, hsl(214, 37%, 62%), hsl(214, 37%, 28%));
+  background-image: linear-gradient(hsl(214, 37%, 62%), hsl(214, 37%, 28%));
+  border-color: hsl(214, 37%, 28%) hsl(214, 37%, 28%) hsl(214, 37%, 19.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.56);
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-green1 {
+  background-color: hsl(110, 56%, 16%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="hsl(110, 56%, 36%)", endColorStr="hsl(110, 56%, 16%)");
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(hsl(110, 56%, 36%)), to(hsl(110, 56%, 16%)));
+  background-image: -moz-linear-gradient(top, hsl(110, 56%, 36%), hsl(110, 56%, 16%));
+  background-image: -ms-linear-gradient(top, hsl(110, 56%, 36%), hsl(110, 56%, 16%));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, hsl(110, 56%, 36%)), color-stop(100%, hsl(110, 56%, 16%)));
+  background-image: -webkit-linear-gradient(top, hsl(110, 56%, 36%), hsl(110, 56%, 16%));
+  background-image: -o-linear-gradient(top, hsl(110, 56%, 36%), hsl(110, 56%, 16%));
+  background-image: linear-gradient(hsl(110, 56%, 36%), hsl(110, 56%, 16%));
+  border-color: hsl(110, 56%, 16%) hsl(110, 56%, 16%) hsl(110, 56%, 11%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-maroon1 {
+  background-color: hsl(0, 69%, 22%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="hsl(0, 69%, 42%)", endColorStr="hsl(0, 69%, 22%)");
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(hsl(0, 69%, 42%)), to(hsl(0, 69%, 22%)));
+  background-image: -moz-linear-gradient(top, hsl(0, 69%, 42%), hsl(0, 69%, 22%));
+  background-image: -ms-linear-gradient(top, hsl(0, 69%, 42%), hsl(0, 69%, 22%));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, hsl(0, 69%, 42%)), color-stop(100%, hsl(0, 69%, 22%)));
+  background-image: -webkit-linear-gradient(top, hsl(0, 69%, 42%), hsl(0, 69%, 22%));
+  background-image: -o-linear-gradient(top, hsl(0, 69%, 42%), hsl(0, 69%, 22%));
+  background-image: linear-gradient(hsl(0, 69%, 42%), hsl(0, 69%, 22%));
+  border-color: hsl(0, 69%, 22%) hsl(0, 69%, 22%) hsl(0, 69%, 17%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+.btn-yellow {
+  background-color: hsl(50, 100%, 75%) !important;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(hsl(50, 100%, 95%)), to(hsl(50, 100%, 75%)));
+  background-image: -moz-linear-gradient(top, hsl(50, 100%, 95%), hsl(50, 100%, 75%));
+  background-image: -ms-linear-gradient(top, hsl(50, 100%, 95%), hsl(50, 100%, 75%));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, hsl(50, 100%, 95%)), color-stop(100%, hsl(50, 100%, 75%)));
+  background-image: -webkit-linear-gradient(top, hsl(50, 100%, 95%), hsl(50, 100%, 75%));
+  background-image: -o-linear-gradient(top, hsl(50, 100%, 95%), hsl(50, 100%, 75%));
+  background-image: linear-gradient(hsl(50, 100%, 95%), hsl(50, 100%, 75%));
+  border-color: hsl(50, 100%, 75%) hsl(50, 100%, 75%) hsl(50, 100%, 70%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+  -webkit-font-smoothing: antialiased;
+}

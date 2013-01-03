@@ -1,0 +1,259 @@
+#map-area {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 5px; }
+
+.navbar {
+  background-color: black; }
+
+.hidden {
+  display: none; }
+
+.invisible {
+  visibility: none; }
+
+.container .brand {
+  padding-right: 11px; }
+
+#settings {
+  float: right; }
+
+#container {
+  margin-top: 22px;
+  margin-left: 40px; }
+
+#countries {
+  margin-bottom: -3px; }
+
+#map-header {
+  font-size: 29px;
+  margin: 0px auto;
+  text-align: center; }
+
+#map {
+  float: left;
+  margin-top: 11px; }
+
+#tagline {
+  color: white;
+  padding-top: 12px;
+  float: left; }
+
+#pretext {
+  vertical-align: -5px; }
+
+#legend {
+  margin-left: 15px; }
+  #legend .label {
+    color: black;
+    width: 115px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 5px; }
+  #legend .color {
+    display: inline-block;
+    min-width: 10px;
+    min-height: 10px; }
+  #legend .label {
+    display: inline-block; }
+
+#required-label {
+  background-color: #6b364c; }
+  #required-label .div1, #required-label .div2 {
+    color: white; }
+
+#notrequired-label {
+  background-color: #82b885; }
+  #notrequired-label .div1, #notrequired-label .div2 {
+    color: white; }
+
+#homecountry {
+  background-color: #375fa0; }
+  #homecountry .div1, #homecountry .div2 {
+    color: white; }
+
+#forbidden {
+  background-color: #990000; }
+  #forbidden .div1, #forbidden .div2 {
+    color: white; }
+
+#onlineapplication {
+  background-color: #fbf4d0; }
+  #onlineapplication .div1, #onlineapplication .div2 {
+    color: black; }
+
+#available-on-arrival {
+  background-color: #1a4012; }
+  #available-on-arrival .div1, #available-on-arrival .div2 {
+    color: white; }
+
+#data-unclear.label {
+  background-color: black;
+  color: white; }
+
+.notrequired {
+  padding-right: 10px;
+  display: inline-block; }
+  .notrequired .color {
+    background-color: #82b885; }
+
+.nodata {
+  padding-right: 10px; }
+  .nodata .color {
+    background-color: black; }
+
+.homecountry {
+  padding-right: 10px;
+  display: inline-block; }
+  .homecountry .color {
+    background-color: #375fa0; }
+
+.fb-like {
+  width: 100px;
+  margin-left: 20px;
+  overflow: hidden; }
+
+#settings .dropdown-toggle {
+  float: left; }
+
+.modal-content {
+  padding: 10px;
+  text-align: center; }
+
+#submit-form-label {
+  text-align: center;
+  margin-bottom: 30px; }
+  #submit-form-label span {
+    font-size: 14px; }
+  #submit-form-label .country-selected {
+    font-size: 16px;
+    font-weight: bold; }
+
+#flash {
+  opacity: 0;
+  font-size: 13px;
+  margin-left: 100px; }
+
+#map-click-instruction {
+  left: 434px;
+  top: 509px;
+  position: absolute;
+  font-size: 13px; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+#right-bar {
+  padding-top: 100px;
+  float: left; }
+
+#LikePluginPagelet {
+  width: 100px; }
+
+#signin {
+  margin-top: 6px; }
+
+#social-media-widgets {
+  height: 351px;
+  width: 815px;
+  margin: 0 auto; }
+
+#other-links {
+  padding-top: 343px;
+  float: left;
+  padding-left: 11px;
+  width: 160px; }
+  #other-links .disclaimer {
+    font-size: smaller;
+    margin-top: 10px; }
+
+#gplus {
+  margin-left: 21px;
+  margin-top: 20px;
+  overflow: hidden;
+  display: inline-block;
+  width: 208px; }
+
+#twitter, #pinterest {
+  display: inline-block;
+  margin-left: 21px;
+  margin-top: 18px; }
+
+#visa-buttons {
+  margin: 0 auto;
+  text-align: center; }
+  #visa-buttons .btn {
+    margin: 13px auto;
+    display: block;
+    width: 232px; }
+
+.subtext {
+  padding-top: 30px;
+  margin: 0 auto;
+  text-align: center; }
+
+#signin-modal {
+  width: 378px;
+  height: 153px; }
+  #signin-modal #google-button-text, #signin-modal #fb-button-text {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 5px; }
+  #signin-modal #google-button-text i {
+    background-image: url("/images/google.png");
+    width: 33px;
+    height: 30px;
+    display: inline-block; }
+  #signin-modal #fb-button-text i {
+    background-image: url("/images/facebook1.jpeg");
+    width: 29px;
+    height: 30px;
+    display: inline-block; }
+  #signin-modal .modal-body {
+    margin: 0 auto;
+    text-align: center; }
+  #signin-modal img {
+    padding-top: 20px; }
+
+#visa-detail-tabs {
+  width: 145px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 14px; }
+
+#visa-submission-form-buttons {
+  margin-left: 54px;
+  width: 300px;
+  display: inline-block; }
+
+#submit-data-modal {
+  width: 682px;
+  padding-bottom: 20px; }
+
+#visa-comments, #visa-links {
+  display: inline-block; }
+
+#visa-detail-modal-body {
+  margin-top: 10px; }
+
+#visa-links-form {
+  margin-top: 62px; }
+  #visa-links-form form {
+    margin-top: 10px; }
+
+#visa-links {
+  margin-left: 40px; }
+
+#visa-link-submission {
+  opacity: 0;
+  width: 380px; }
+
+#country-spinner {
+  opacity: 0; }

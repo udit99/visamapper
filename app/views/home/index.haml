@@ -1,0 +1,67 @@
+#container
+  #map-header
+    %span#pretext
+      I am a citizen of 
+    = select_tag "countries", options_for_countries()
+    %span#country-spinner
+      = image_tag "/images/ajax-loader.gif"
+    %span#flash.alert-message.info
+      Record Updated
+      
+
+
+  #map-area.clearfix
+    #map{:style => "height:564px;width :984px"}
+    #right-bar
+      #legend
+        .required
+          #required-label.label
+            .div1
+              Visa required 
+            .div2
+              prior to arrival
+        .notrequired
+          #notrequired-label.label
+            .div1
+              Visa not required 
+            .div2
+              prior to arrival
+        .onarrival
+          #available-on-arrival.label
+            .div1
+              Visa available
+            .div2
+              on arrival
+        .onlineapplication
+          #onlineapplication.label
+            .div1
+              Online application 
+            .div2
+              required
+        .homecountry
+          #homecountry.label
+            .div1
+              Country of 
+            .div2
+              Citizenship
+        .forbidden
+          #forbidden.label
+            .div1
+              Visa restricted/
+            .div2
+              forbidden
+        .nodata
+          #data-unclear.label
+            Data unclear
+
+    #social-media-widgets.clearfix
+      .fb-like{"data-href" => "http://www.visamapper.com", "data-send" => "false", "data-layout" => "button_count", "data-width" => "450", "data-show-faces" => "true"}
+      #gplus
+        %g:plusone{:annotation => "inline"}
+      #twitter
+        <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Visamapper.com for finding Visa-free Travel destinations." data-count="none">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      #pinterest
+        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.visamapper.com&media=http%3A%2F%2Fwww.visamapper.com&description=Find%20Visa-free%20travel%20destinations%20laid%20out%20on%20a%20pretty%20map" class="pin-it-button" count-layout="horizontal">Pin It</a>
+        <script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
+

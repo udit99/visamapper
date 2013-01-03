@@ -1,0 +1,13 @@
+#signin-modal.modal.hide.fade
+  .modal-header
+    %a{:href => "#", :class => "close"} x
+    %h3 Sign In with...
+  .modal-body
+    %a.btn{:href => "/auth/google_oauth2"}
+      %span#google-button-text
+        Google
+        %i
+    %a.btn{:href => "/auth/facebook"}
+      %span#fb-button-text
+        Facebook
+        %i  

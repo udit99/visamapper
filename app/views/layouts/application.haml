@@ -1,0 +1,18 @@
+%html{:itemscope => "", :itemtype => "http://schema.org/Product"}
+  %head
+    %title
+      VisaMapper
+
+    = render partial: '/common/facebook_meta_properties'
+    = render partial: '/common/javascript_includes'
+    = render partial: '/common/facebook_like_button'
+    = render partial: '/common/google_analytics'
+    = render :partial => "country_mappings_json"
+    
+    %script{:type => "text/javascript"}
+      var loggedIn = #{current_user.present?};
+  %body
+    = render :partial => "common/navbar"
+    = yield
+    = render :partial => "signin_modal"
+    = render :partial => "user_data_submission_modal"

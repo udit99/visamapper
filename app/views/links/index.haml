@@ -1,0 +1,9 @@
+- if @links.empty?
+  There are no links available right now.
+- else
+  - counter = 0
+  %ul
+    - @links.each do |l|
+      %li
+        %a{:href => l.url}
+          = l.url

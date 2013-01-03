@@ -1,0 +1,25 @@
+.navbar{"data-dropdown" => "dropdown"}
+  .fill
+    .container
+      %a.brand{:href => "/"}
+        VisaMapper
+      #settings
+        - if current_user
+          %ul.useremail.nav.secondarynav
+            %li.dropdown
+              %a.dropdown-toggle{:href => "#"}
+                = current_user.name
+              %ul.dropdown-menu
+                %li
+                  %a{:href => logout_path}
+                    Sign out
+        - else
+          .pull-right
+            %button#signin.sign-in.btn{:type => "submit", "data-controls-modal" => "signin-modal", "data-backdrop" => "true", "data-keyboard" => "true"}
+              Sign in
+                  
+
+      #tagline
+        Find Visa-free travel destinations
+
+

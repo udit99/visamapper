@@ -1,0 +1,59 @@
+#submit-data-modal.modal.hide.fade
+  .modal-header
+    %a{:href => "#", :class => "close"} x
+    .visa-voting-form-header
+      #submit-form-label.clearfix
+        %span
+          Citizens of
+        %span#from-country.country-selected
+          
+        %span
+          Travelling as a tourist to
+        %span#to-country.country-selected
+  #visa-detail-modal-body
+    #visa-detail-tabs
+      %ul.nav.nav-pills.nav-stacked
+        %li#vote-li.active
+          %a#vote-link{:href => "#"}
+            Votes
+        %li#comment-li
+          %a#comment-link{:href => "#"}
+            Comments
+        %li#links-li
+          %a#links-link{:href => "#"}
+            Helpful Links
+          
+    #visa-submission-form-buttons
+      = form_tag("/votes",{ :class => "form-stacked", :id => "vote-form" }) do
+        = hidden_field_tag :vote
+        = hidden_field_tag :visa_country_code
+        = hidden_field_tag :citizen_country
+        #visa-buttons
+          Click on the button that best represents the visa requirements for this country. The colors on the map
+          are based on the highest voted option.
+          = submit_tag "Visa not Required prior to Arrival", {:class => "btn btn-success", :id => "visa-not-required"}
+          = submit_tag "Visa available on arrival", {:class => "btn btn-green1", :id => "visa-available-on-arrival"}
+          = submit_tag "Online Application required*", {:class => "btn btn-yellow", :id => "online-application-required"}
+          = submit_tag "Visa Required prior to Arrival", {:class => "btn btn-maroon1", :id => "visa-required-prior-to-arrival"}
+          = submit_tag "Travel Restricted/Forbidden", {:class => "btn btn-danger", :id => "restricted-travel"}
+
+        .subtext
+          * E-visa, ESTA, Visa Waiver Program etc.
+
+    #visa-comments.hidden
+    #visa-links.hidden
+      %h4
+        Helpful Links
+      #visa-links-list
+      
+      #visa-links-form
+        Know of a helpful visa link for this country? Submit here
+        = form_tag "links" do
+          = hidden_field_tag :link_visa_country
+          = hidden_field_tag :link_citizen_country
+          http://
+          = url_field_tag :url
+          = submit_tag :submit, :id => "visa-link-submit"
+          #visa-link-submission.alert.alert-success
+            Your link has been submitted. If it is approved by the moderator, it will show up in this section soon.
+
