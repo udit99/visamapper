@@ -17,3 +17,8 @@ gem 'rspec'
 gem 'rspec-rails'
 gem 'pry'
 gem 'pry-debugger'
+gem 'capybara', '~> 1.1.2'
+gem 'capybara-firebug', '~> 1.2.2'
+gem 'capybara-webkit', '~> 0.12.1'
+gem 'cucumber'
+
