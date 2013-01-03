@@ -17,9 +17,6 @@ gem 'rspec'
 gem 'rspec-rails'
 gem 'pry'
 gem 'pry-debugger'
-group :development, :test do
-  gem "ruby-debug19"
-end
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
