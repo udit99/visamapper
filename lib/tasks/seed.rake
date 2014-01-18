@@ -146,6 +146,7 @@ namespace :seed_loader do
           JSCountry.create(:code =>"rs", :name =>"Serbia")
           JSCountry.create(:code =>"sc", :name =>"Seychelles")
           JSCountry.create(:code =>"sl", :name =>"Sierra Leone")
+          JSCountry.create(:code =>"sl", :name =>"Singapore")
           JSCountry.create(:code =>"sk", :name =>"Slovakia")
           JSCountry.create(:code =>"si", :name =>"Slovenia")
           JSCountry.create(:code =>"sb", :name =>"Solomon Islands")
